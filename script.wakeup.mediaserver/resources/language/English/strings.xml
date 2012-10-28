@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+    <string id="30100">General</string>
+    <string id="30101">Debug logging</string>
+	<string id="30102">Show message at startup</string>
+    <string id="30201">MAC address</string>
+    <string id="30300">Server settings</string>
+    <string id="30301">Line break style</string>
+    <string id="30302">Windows</string>
+    <string id="30303">UNIX</string>
+    <string id="30311">Host</string>
+    <string id="30312">User</string>
+    <string id="30313">Password</string>
+    <string id="30314">Shutdown command</string>
+    <string id="30315">Timeout (s)</string>
+    <string id="30316">Port</string>
+    <string id="30390">Telnet settings (for shutdown)</string>
+    <string id="30391">Magic Packet settings (for wake-up)</string>
+    <string id="30400">Telnet responses</string>
+    <string id="30401">Login prompt</string>
+    <string id="30402">Password prompt</string>
+    <string id="30403">Input prompt</string>
+    <string id="35000">Waking up server</string>
+    <string id="35001">The server with the mac address</string>
+    <string id="35002">is waking up</string>
+</strings>

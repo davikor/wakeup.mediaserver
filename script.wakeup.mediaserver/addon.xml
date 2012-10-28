@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<addon id='script.wakeup.mediaserver' version='1.0.0' name='Wake-up mediaserver' provider-name='lagwagon667'>
+  <requires>
+    <import addon='xbmc.python' version='2.0'/>
+  </requires>
+  <extension point='xbmc.service' library='default.py' start='startup'>
+  </extension>
+  <extension point='xbmc.addon.metadata'>
+    <platform>all</platform>
+    <summary lang='en'>Wake-up and shutdown your media server with XBMC.</summary>
+    <summary lang='de'>Lasse XBMC Deinen Medienserver booten und ausschalten.</summary>
+    <description lang='en'>This addon wakes up your media server using a magic packet and shuts it down by login into it via Telnet and executing a shutdown command.</description>
+    <description lang='de'>Dieses Add-on weckt Deinen Medienserver via Magic Packet auf, wenn XBMC startet und fährt ihn via Telnet wieder herunter, wenn XBMC beendet wird.</description>
+  </extension>
+</addon>
