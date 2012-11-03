@@ -16,7 +16,7 @@
     <setting id="pass" type="text" label="30313" default="" option="hidden" />
     <setting type="sep"/>
     <setting label="30301" type="labelenum" id="linebreaks" lvalues="30302|30303"/>
-    <setting id="shutdowncmd" type="text" label="30314" default="shutdown -h" />
+    <setting id="shutdowncmd" type="text" label="30314" default="shutdown /h" />
     <setting id="timeout" type="number" label="30315" default="1" />
     <setting label="30400" type="lsep"/>
     <setting id="loginresponse" type="text" label="30401" default="login:" />
