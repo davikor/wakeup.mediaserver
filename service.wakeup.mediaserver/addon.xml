@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
-<addon id='script.wakeup.mediaserver' version='1.0.0' name='Wake-up mediaserver' provider-name='lagwagon667'>
+<addon id='service.wakeup.mediaserver' version='1.0.1' name='Wake-up mediaserver' provider-name='lagwagon667'>
   <requires>
     <import addon='xbmc.python' version='2.0'/>
   </requires>

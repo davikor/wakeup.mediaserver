@@ -1,6 +1,6 @@
 '''
-    Cache service for XBMC
-    Copyright (C) 2010-2011 Tobias Ussing And Henrik Mosgaard Jensen
+    Wake Up Media Server service for XBMC
+    Copyright (C) 2012 David Rummel
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -14,7 +14,6 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    Version 0.8
 '''
 
 import struct, socket, telnetlib, time
@@ -22,7 +21,7 @@ import sys
 import xbmc
 import xbmcaddon
 
-settings = xbmcaddon.Addon(id='script.wakeup.mediaserver')
+settings = xbmcaddon.Addon(id='service.wakeup.mediaserver')
 language = settings.getLocalizedString
 
 # The builtin method does not always work
@@ -97,7 +96,7 @@ def shutdown():
         print 'WUMS: Connecting to ' + host + ' via telnet failed. Media server could not be shut down...'
 
 def doNothing():
-    x = 0
+    xbmc.sleep(50)
 
 if __name__ == "__main__":
     # try to wake up media server
